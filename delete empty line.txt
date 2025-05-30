@@ -1,0 +1,11 @@
+// delete empty line
+
+
+#!/bin/bash
+echo "Read file"
+read file
+sed '/^$/d' $file   
+
+
+
+ 
