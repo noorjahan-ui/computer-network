@@ -1,0 +1,11 @@
+//read line by line
+
+#!/bin/bash
+read -p "Enter filename:" file  
+while read line   
+do
+echo $line
+done < $file 
+ 
+
+
