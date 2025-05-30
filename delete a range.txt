@@ -1,0 +1,11 @@
+#!/bin/bash    
+echo "Enter the file name "
+read file    
+echo "Enter the starting "
+read x
+echo "Enter the ending "
+read y
+sed "${x},${y}d" $file   
+
+
+ 
