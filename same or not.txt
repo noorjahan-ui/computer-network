@@ -1,0 +1,18 @@
+//check given file same or not use cmp
+
+
+#!/bin/bash    
+echo "Read file1"
+read a
+echo "Read file2"
+read b
+if cmp -s $a $b 
+then
+echo "same"
+else
+echo "Not same"
+fi   
+
+
+
+ 
