@@ -1,0 +1,12 @@
+//delete specific word
+
+#!/bin/bash    
+echo "Enter the filename"   
+read file
+echo "Enter word"
+read word
+sed "/$word/d" $file
+   
+
+
+
